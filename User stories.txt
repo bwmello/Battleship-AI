@@ -1,0 +1,35 @@
+User stories and difficulties
+
+D:1 take 30 minutes
+D:2 take 1 hour
+D:3 take 2 hours
+As a player I want the computer to set up its own board so that I don't know where the cp's ships are.
+	- Do this by having the computer choose from a set of pre-made boards. 								D:1 P:Medium
+	- Do this by having the computer randomly generate a board for the cp. 								D:1 P:High
+	- Do this by having the cp's AI smartly generate a board for itself. 								D:3 P:Low
+As a player I want to see my board so that I can see my ships & cp's hits/misses.
+	- see ships.																						D:1 P:Medium
+	- see hits/misses.																					D:1 P:Medium
+As a player I want to see the cp's board so that I can see my hits/misses.
+	- see hits/misses.																					D:1 P:Medium
+As a player I want to see the both boards so that I can see everything I need to see to play the game. 	D:3 P:Medium
+As a player I want to see an indication of whose turn it is so that I know when it's my turn. 			D:1 P:Low
+As a player I want to select the difficulty of my opponent. 
+	- easy: randomly picks squares.																		D:1 P:High
+	- medium: targets around hit squares.																D:2 P:Medium
+	- difficult: cheats by moving ships.																D:3 P:Low
+As a player I want to set up my board.
+	- Randomly generate a board.																		D:1 P:High
+	- Customize my own board. 																			D:3 P:Medium
+As a player I want to select the square I'm attacking.
+	- select square & place an 'X'. 																	D:2 P:High
+	- show cp's sunken ships on side of board. 															D:3 P:Low
+As a player I want to see cp's attack.
+	- 'X' appears on grid. 																				D:1 P:Medium
+	- attention drawn to where cp attacked. 															D:3 P:Low
+	- message of hit or miss or sunken ship. 															D:2 P:Low
+	- show my sunken ships to side of board. 															D:3 P: Low
+As a player I want to know who has won.
+	- game closes. 																						D:1 P:High
+	- message of who won. 																				D:2 P:High
+	- message of "play again" or "exit". 																D:2 P:Low
